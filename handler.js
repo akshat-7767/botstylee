@@ -30,7 +30,7 @@ module.exports = {
             if (!isNumber(user.level)) user.level = 0
             if (!user.role) user.role = 'Beginner'
             if (!isNumber(user.exp)) user.exp = 0
-            if (!isNumber(user.limit)) user.limit = 100
+            if (!isNumber(user.limit)) user.limit = 10000
             if (!isNumber(user.lastclaim)) user.lastclaim = 0
             if (!isNumber(user.money)) user.money = 0
             
@@ -102,7 +102,7 @@ module.exports = {
             level: 0,
             role: 'Beginner',
             exp: 0,
-            limit: 10,
+            limit: 99999,
             lastclaim: 0,
             money: 0,
             diamond: 0,
